@@ -6,7 +6,6 @@ Eleza kwa Kiswahili kile PR hii inabadilisha na kwa nini.
 
 - [ ] Mnyororo wa majaribio unapita: bash gharama/jaribu-mnyororo.sh
 - [ ] Fixpoint ni sawa kwa baiti (stage2 == stage3)
-- [ ] cargo test --release inapita
 
 ## Aina ya mabadiliko
 

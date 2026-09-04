@@ -28,10 +28,12 @@ kutoka baiti za mkono hadi fixpoint.
   ikikusanywa na kuendeshwa, si kusomwa. Kanuni ya mradi: program
   inakusanywa kwa usahihi AU inakataliwa kwa sauti. Jibu baya la
   kimya halikubaliki kamwe.
-- **Majaribio ya kina**: mnyororo wa Swa pekee 265/265, dereva wa
-  Rust 232/232, fixpoint sawa kwa baiti kwenye kila ujenzi. Mbegu
-  imegandishwa kumi mara, kila moja ikipitia lango kamili la
-  majaribio kabla ya kugandishwa.
+- **Majaribio ya kina**: mnyororo wa Swa pekee 304/304, fixpoint
+  sawa kwa baiti kwenye kila ujenzi. Mbegu imegandishwa mara kumi
+  na tatu, kila moja ikipitia lango kamili la majaribio kabla ya
+  kugandishwa. Dereva wa zamani wa Rust/LLVM ni hazina ya
+  kumbukumbu pekee (lugha-swa/swa-dereva) — hazina kuu ina lugha
+  moja tu: Swa.
 - **Maneno muhimu 13 pekee**: muundo, rudisha, kama, sivyo, wakati,
   kwa, fanya, vunja, endelea, chagua, hali, husisha, achilia.
   Kilichobaki ni maktaba — sawa na C, Go na Rust.

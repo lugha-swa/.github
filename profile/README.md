@@ -1,62 +1,42 @@
-# Lugha-swa
+<p align="center">
+  <a href="https://lugha-swa.github.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lugha-swa/.github/main/rasilimali/mabango/lugha-swa-giza.png">
+      <img width="100%" src="https://raw.githubusercontent.com/lugha-swa/.github/main/rasilimali/mabango/lugha-swa-mwanga.png" alt="lugha-swa — programu za mifumo, kwa Kiswahili">
+    </picture>
+  </a>
+</p>
+<div align="center">
 
-Shirika la programu za lugha ya Kiswahili, Afrika ya Mashariki.
+[Tovuti](https://lugha-swa.github.io) | [Jifunze](https://lugha-swa.github.io/jifunze.html) | [Marejeo](https://lugha-swa.github.io/marejeo.html) | [Sakinisha](https://lugha-swa.github.io/sakinisha.html) | [Habari](https://lugha-swa.github.io/habari.html) | [Jamii](https://lugha-swa.github.io/jamii.html)
 
-## Swa — lugha ya kupanga ya Kiswahili
+<br>
 
-Swa ni lugha ya mifumo yenye sintaksia kamili ya Kiswahili. Hii si
-tumizi ya lugha nyingine — ni mkusanyaji halisi unaojiandika wenyewe,
-kutoka baiti za mkono hadi fixpoint.
+**lugha-swa** hujenga programu za mifumo kwa Kiswahili — kuanzia lugha yenyewe hadi kernel inayoanzisha. Kiini ni [**Swa**](https://github.com/lugha-swa/swa): lugha ya kupanga yenye sintaksia kamili ya Kiswahili, ambayo mkusanyaji wake umeandikwa kwa Swa yenyewe na huanzia **baiti 393 za mkono** hadi `stage2 == stage3`, sawa kwa baiti. Hakuna gcc, LLVM, kiunganishi wala libc popote kwenye mnyororo.
 
-### Kwa nini Swa ni mradi wenye nguvu
+Kanuni moja inaongoza kila hazina: programu hukusanywa sahihi **au** hukataliwa kwa sauti. Jibu baya la kimya ni mdudu.
 
-- **Kujikusanya kamili**: msomaji, mchanganuzi, mkaguzi, kiteremshi
-  na kizalishe vyote vimeandikwa kwa Swa yenyewe. Mnyororo wa
-  bootstrap unajifunga — `kwanza` (baiti 393 za mkono) hujenga
-  `mbegu`, `mbegu` hujenga `stage1`, na `stage1` hujijenga hadi
-  `stage2 == stage3` sawa kwa baiti. Hakuna gcc, ld, clang wala
-  libc popote kwenye mnyororo wa uzalishaji.
-- **Mfumo wa moduli halisi**: `husisha { maktaba/mfuatano.swa }`
-  inatatuliwa na mkusanyaji wenyewe — tegemezi hufuatwa kwa mpito,
-  marudio yanaondolewa, mzunguko unakataliwa kwa sauti. Maktaba ya
-  kawaida ina rafu zake: `msingi/maktaba/` kwa msamiati
-  (kumbukumbu, mfuatano, hesabu, orodha, ramani, mpangilio, faili,
-  nasibu, wakati) na `msingi/mkusanyaji/` kwa mkusanyaji.
-- **Uzingatiaji uliopimwa**: rekodi kamili
-  (`hati/uthibitisho-wa-lugha.md`) inahesabu kila kipengele
-  kilichojaribiwa kwenye minyororo yote miwili — kesi 467, kila moja
-  ikikusanywa na kuendeshwa, si kusomwa. Kanuni ya mradi: program
-  inakusanywa kwa usahihi AU inakataliwa kwa sauti. Jibu baya la
-  kimya halikubaliki kamwe.
-- **Majaribio ya kina**: mnyororo wa Swa pekee 304/304, fixpoint
-  sawa kwa baiti kwenye kila ujenzi. Mbegu imegandishwa mara kumi
-  na tatu, kila moja ikipitia lango kamili la majaribio kabla ya
-  kugandishwa. Dereva wa zamani wa Rust/LLVM ni hazina ya
-  kumbukumbu pekee (lugha-swa/swa-dereva) — hazina kuu ina lugha
-  moja tu: Swa.
-- **Maneno muhimu 13 pekee**: muundo, rudisha, kama, sivyo, wakati,
-  kwa, fanya, vunja, endelea, chagua, hali, husisha, achilia.
-  Kilichobaki ni maktaba — sawa na C, Go na Rust.
-- **Faili asilia**: moduli ya faili inafanya kazi kwa syscalls
-  moja kwa moja, bila libc. Kufungua, kusoma, kuandika, kufuta —
-  zote asilia.
+</div>
 
-### Matoleo
+<br>
 
-- v0.0.1 — uzingatiaji wa lugha na rekodi iliyopimwa
-- v0.0.2 — mfumo wa moduli: husisha ni kiungo halisi
-- v0.0.3 — fanya (do-wakati), neno muhimu la 13
+| Hazina | Maelezo | Hali |
+|---|---|---|
+| [**swa**](https://github.com/lugha-swa/swa) | mkusanyaji wa kujikusanya, maktaba ya msingi; malengo: x86-64, WebAssembly, ring 0 | majaribio 456/456 · WASM 36/36 · kernel 15/15 |
+| [**kawira**](https://github.com/lugha-swa/kawira) | Swa kwenye ring 0 — kernel inayoanzisha, iliyoandikwa kwa Swa | boot, long mode, IDT na kibodi |
+| [**uchapaji-swa**](https://github.com/lugha-swa/uchapaji-swa) | msomaji wa TrueType na kijazaji cha glyph, bila FreeType | inachora fonti halisi |
+| [**tree-sitter-swa**](https://github.com/lugha-swa/tree-sitter-swa) | sarufi ya Tree-sitter — rangi za sintaksia kwenye vihariri | inafanya kazi |
+| [**lugha-swa.github.io**](https://github.com/lugha-swa/lugha-swa.github.io) | tovuti na mwongozo wa lugha | hewani |
 
-## Miradi
+<br>
 
-| Hazina | Maelezo |
-|---|---|
-| lugha-swa/swa | Mkusanyaji wa Swa — hazina kuu |
-| lugha-swa.github.io | Tovuti rasmi ya lugha |
-| lugha-swa/.github | Wasifu, kanuni, na violezo vya shirika |
+<div align="center">
 
-## Kanuni
+Kila mchango uko kwa Kiswahili — msimbo, maoni, commits na PR. Anza na [masuala ya waanzishaji](https://github.com/lugha-swa/swa/labels/good-first-issue) au uliza kwenye [Majadiliano](https://github.com/lugha-swa/swa/discussions).
 
-Kila mchango uko kwa Kiswahili. Mabadiliko huingia kupitia PR pekee.
-Mbegu ni mzizi wa uaminifu — inajengwa na kujaribiwa KABLA ya
-kugandishwa, hakuna ubaguzi.
+<br>
+<a href="https://github.com/lugha-swa"><img src="https://raw.githubusercontent.com/lugha-swa/.github/main/rasilimali/nembo/nembo-64.png" width="28" alt="lugha-swa"></a>
+<br>
+<sub>Afrika ya Mashariki</sub>
+
+</div>

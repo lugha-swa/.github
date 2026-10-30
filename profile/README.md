@@ -22,7 +22,7 @@ Kanuni moja inaongoza kila hazina: programu hukusanywa sahihi **au** hukataliwa 
 
 | Hazina | Maelezo | Hali |
 |---|---|---|
-| [**swa**](https://github.com/lugha-swa/swa) | mkusanyaji wa kujikusanya, maktaba ya msingi; malengo: x86-64, WebAssembly, ring 0 | majaribio 456/456 · WASM 36/36 · kernel 15/15 |
+| [**swa**](https://github.com/lugha-swa/swa) | mkusanyaji wa kujikusanya, maktaba ya msingi; malengo: x86-64, WebAssembly, ring 0 | majaribio 457/457 · WASM 36/36 · kernel 15/15 |
 | [**kawira**](https://github.com/lugha-swa/kawira) | Swa kwenye ring 0 — kernel inayoanzisha, iliyoandikwa kwa Swa | boot, long mode, IDT na kibodi |
 | [**uchapaji-swa**](https://github.com/lugha-swa/uchapaji-swa) | msomaji wa TrueType na kijazaji cha glyph, bila FreeType | inachora fonti halisi |
 | [**tree-sitter-swa**](https://github.com/lugha-swa/tree-sitter-swa) | sarufi ya Tree-sitter — rangi za sintaksia kwenye vihariri | inafanya kazi |
